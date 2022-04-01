@@ -1,0 +1,596 @@
+﻿<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+        content="Добро пожаловать на персональный сайт Kotik'а - верстальщика и, надеюсь, будущего концепт-художника!">
+  <meta name="keywords" content="Портфолио, верстальщик, портфолио верстальщика, HTML-верстальщик">
+  <title>Kotik - сайт-портфолио</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./less/style.css">
+</head>
+<body>
+<div class="side-menu side-menu--closed" id="side-menu">
+  <div class="side-menu__container">
+    <nav class="side-menu__nav-block">
+      <button class="side-menu__close-link" role="button" aria-label="Close side menu">&times;</button>
+      <a href="#my-stack" class="side-menu__link">Мой стек</a>
+      <a href="#psd-works" class="side-menu__link">Свёрстанные макеты</a>
+      <a href="#study-works" class="side-menu__link">По учёбе</a>
+      <a href="#commercial-works" class="side-menu__link">Коммерческие проекты</a>
+    </nav>
+  </div>
+</div>
+<div class="wrapper">
+  <div class="top-block-fixed">
+    <div class="top-block-fixed__container top-block-fixed__container--white-bg">
+      <a href="./" class="logo zoomIn animated">Kotik</a>
+      <button class="side-menu-trigger zoomIn animated animation-delay-01s" role="button" aria-label="Open side menu">
+        <svg class="side-menu-trigger__svg-icon  side-menu-trigger--shadow-animation" viewBox="0 0 26 26"
+             fill="none"
+             xmlns="http://www.w3.org/2000/svg">
+          <circle cx="13" cy="13" r="13" fill="#91CFC9"/>
+          <circle cx="13" cy="13" r="10" fill="#fff"/>
+          <circle cx="13" cy="13" r="7" fill="#000"/>
+        </svg>
+      </button>
+      <nav class="main-navigation">
+        <a href="#my-stack" class="main-navigation__link zoomIn animated animation-delay-01s">Мой стек</a>
+        <a href="#psd-works" class="main-navigation__link zoomIn animated animation-delay-02s">Свёрстанные
+          макеты</a>
+        <a href="#study-works" class="main-navigation__link zoomIn animated animation-delay-04s">По учёбе</a>
+        <a href="#commercial-works" class="main-navigation__link zoomIn animated animation-delay-05s">Коммерческие
+          проекты</a>
+      </nav>
+    </div>
+  </div>
+  <header class="header">
+    <div class="header__container full-height-block full-height-block--cyan-bg">
+      <img class="my-photo" src="img/header/cat.svg" alt="My photo">
+      <p class="about-me-text about-me-text--wide-width">Разработка сайтов&nbsp;&mdash; очень классное дело, так
+        как
+        можно воочию увидеть, как сайт из&nbsp;макета переносится в&nbsp;браузер, наполняется контентом и&nbsp;анимациями!</p>
+      <p class="about-me-text about-me-text--regular-width">Именно поэтому я&nbsp;решил заняться Web-разработкой!
+        :)</p>
+    </div>
+  </header>
+  <section class="my-stack" id="my-stack">
+    <div class="my-stack__container full-height-block">
+      <h2 class="section-heading">Стэк технологий</h2>
+      <hr class="section-heading-underline">
+      <div class="owl-carousel slider">
+        <div class="slider__item">
+          <div class="svg-block svg--html"></div>
+          <p class="svg__text svg__text--html-color">HTML5</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--javascript"></div>
+          <p class="svg__text svg__text--javascript-color">JavaScript</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--css3"></div>
+          <p class="svg__text svg__text--css3-color">CSS3</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--jquery"></div>
+          <p class="svg__text svg__text--jquery-color">jQuery</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--less"></div>
+          <p class="svg__text svg__text--less-color">Less</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--sass"></div>
+          <p class="svg__text svg__text--sass-color">Sass (Scss)</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--git"></div>
+          <p class="svg__text svg__text--git-color">Git</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--adobe-creative-cloud"></div>
+          <p class="svg__text svg__text--adobe-creative-cloud-color">Adobe Creative Cloud<br>(Extract)</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg-block--avocode svg--avocode"></div>
+          <p class="svg__text svg__text--avocode-color">Avocode</p>
+        </div>
+        <div class="slider__item">
+          <div class="svg-block svg--figma"></div>
+          <p class="svg__text svg__text--figma-color">Figma</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="psd-works" id="psd-works">
+    <div class="psd-works__container">
+      <h2 class="section-heading">Свёрстанные макеты</h2>
+      <hr class="section-heading-underline">
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/skillbox.jpg" alt="Skillbox project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;Сайт-портфолио&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+              <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+              <div
+                class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Создание сайта-портфолио для верстальщика</p>
+            </div>
+            <a href="./projects/Skillbox/index.html" class="button about-project__link" target="_blank">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/tinyone.PNG" alt="Tinyone project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;Tinyone PSD&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+              <div class="about-project__img-container">
+                <img src="./img/svgs/owl-logo.png" alt="Owl Carousel logo" class="about-project__img">
+              </div>
+              <div
+                class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Вёрстка макета из интернета</p>
+            </div>
+            <a href="./projects/TinyOne/index.html" class="button about-project__link" target="_blank">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/twobytes.jpg" alt="Twobytes project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;Twobytes PSD&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+              <div
+                class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Вёрстка макета из интернета</p>
+            </div>
+            <a href="./projects/TwoBytes/index.html" class="button about-project__link" target="_blank">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-left-to-right">
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">01</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;Сайт-портфолио&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+                  <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+                  <div
+                    class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Создание сайта-портфолио для верстальщика</p>
+                </div>
+                <a href="./projects/Skillbox/index.html" class="button about-project__link" target="_blank">Открыть</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-left-to-right"
+                   src="./img/project-images/skillbox.jpg" alt="Skillbox project image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-right-to-left">
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-right-to-left"
+                   src="./img/project-images/tinyone.PNG" alt="Tinyone project image">
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">02</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;Tinyone PSD&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+                  <div class="about-project__img-container">
+                    <img src="./img/svgs/owl-logo.png" alt="Owl Carousel logo"
+                         class="about-project__img">
+                  </div>
+                  <div
+                    class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Вёрстка макета из интернета</p>
+                </div>
+                <a href="./projects/TinyOne/index.html" class="button about-project__link" target="_blank">Открыть</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-left-to-right">
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">03</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;Twobytes PSD&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+                  <div
+                    class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Вёрстка макета из интернета</p>
+                </div>
+                <a href="./projects/TwoBytes/index.html" class="button about-project__link" target="_blank">Открыть</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-left-to-right"
+                   src="img/project-images/twobytes.jpg" alt="Twobytes project image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="study-works" id="study-works">
+    <div class="study-works__container">
+      <h2 class="section-heading">По учёбе</h2>
+      <hr class="section-heading-underline">
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/thebrand.jpg" alt="The Brand project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;The Brand PSD&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+              <div class="svg svg--javascript about-project__svg about-project__svg--javascript"></div>
+              <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+              <div class="about-project__img-container">
+                <img src="./img/svgs/owl-logo.png" alt="Owl Carousel logo" class="about-project__img">
+              </div>
+              <div
+                class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+              <div class="svg svg--php about-project__svg about-project__svg--php"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Создание интернет-магазина</p>
+            </div>
+            <button class="button button--disabled about-project__link" disabled>В разработке</button>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-left-to-right">
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">04</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;The Brand PSD&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--css3 about-project__svg about-project__svg--css3"></div>
+                  <div class="svg svg--javascript about-project__svg about-project__svg--javascript"></div>
+                  <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+                  <div class="about-project__img-container">
+                    <img src="./img/svgs/owl-logo.png" alt="Owl Carousel logo"
+                         class="about-project__img">
+                  </div>
+                  <div
+                    class="svg svg--adobe-creative-cloud about-project__svg about-project__svg--adobe-creative-cloud"></div>
+                  <div class="svg svg--php about-project__svg about-project__svg--php"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Создание интернет-магазина</p>
+                </div>
+                <button class="button button--disabled about-project__link" disabled>В разработке
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-left-to-right"
+                   src="./img/project-images/thebrand.jpg" alt="The Brand project image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="commercial-works" id="commercial-works">
+    <div class="commercial-works__container">
+      <h2 class="section-heading">Коммерческие проекты</h2>
+      <hr class="section-heading-underline">
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/practicum.jpg" alt="PRACTICUM project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;PRACTICUM&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+              <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+              <div class="about-project__img-container">
+                <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                     class="about-project__img about-project__img--slick">
+              </div>
+              <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+              <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Вёрстка Landging page по заданному макету в Figma</p>
+            </div>
+            <a href="https://sbs.edu.ru/lp/golovanov-practicum/" class="button about-project__link" target="_blank"
+               rel="noopener">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-right-to-left">
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-right-to-left"
+                   src="./img/project-images/practicum.jpg" alt="PRACTICUM project image">
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">05</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;PRACTICUM&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+                  <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+                  <div class="about-project__img-container">
+                    <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                         class="about-project__img about-project__img--slick">
+                  </div>
+                  <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+                  <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Вёрстка Landging page по заданному макету в Figma</p>
+                </div>
+                <a href="https://sbs.edu.ru/lp/golovanov-practicum/" class="button about-project__link" target="_blank"
+                   rel="noopener">Открыть</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/evening-sales.jpg" alt="EVENING SALES project image">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;EVENING SALES&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+              <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+              <div class="about-project__img-container">
+                <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                     class="about-project__img about-project__img--slick">
+              </div>
+              <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+              <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Вёрстка Landging page по заданному макету в Figma</p>
+            </div>
+            <a href="https://synergy.ru/lp/evening-sales/" class="button about-project__link" target="_blank"
+               rel="noopener">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-left-to-right">
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">06</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;EVENING SALES&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+                  <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+                  <div class="about-project__img-container">
+                    <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                         class="about-project__img about-project__img--slick">
+                  </div>
+                  <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+                  <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Вёрстка Landging page по заданному макету в Figma</p>
+                </div>
+                <a href="https://synergy.ru/lp/evening-sales/" class="button about-project__link" target="_blank"
+                   rel="noopener">Открыть</a>
+              </div>
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-left-to-right"
+                   src="./img/project-images/evening-sales.jpg" alt="EVENING SALES project image">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-project-block">
+        <div class="image-block">
+          <img class="image-block__img" src="./img/project-images/myb.jpg" alt="My business logo">
+        </div>
+        <div class="about-project">
+          <div class="about-project__container">
+            <h3 class="about-project__heading">&laquo;МОЙБИЗНЕС.РФ&raquo;</h3>
+            <h4 class="about-project__subheading">Использованные технологии</h4>
+            <hr class="about-project__heading-line">
+            <div class="about-project__svgs-block flex-row">
+              <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+              <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+              <div class="svg svg--javascript about-project__svg about-project__svg--javascript"></div>
+              <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+              <div class="about-project__img-container">
+                <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                     class="about-project__img about-project__img--slick">
+              </div>
+              <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+              <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+            </div>
+            <div class="about-project__text-block">
+              <p class="about-project__paragraph">Участие в разработке ЛК для портала МойБизнес.РФ</p>
+            </div>
+            <a href="https://synergy.ru/lp/evening-sales/" class="button about-project__link" target="_blank"
+               rel="noopener">Открыть</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-block">
+        <div class="project-block__container project-block__container--bg-primary-color-right-to-left">
+         <div class="project-block__item">
+            <div class="project-block__img-container">
+              <img class="project-block__img project-block__img--box-shadow-right-to-left"
+                   src="./img/project-images/myb.jpg" alt="My business logo">
+            </div>
+          </div>
+          <div class="project-block__item">
+            <div class="number-block">
+              <span class="number-block__number-text">07</span>
+            </div>
+            <h3 class="project-block__heading">&laquo;МОЙБИЗНЕС.РФ&raquo;</h3>
+            <hr class="project-block__heading-line">
+            <div class="about-project">
+              <div class="about-project__container">
+                <h4 class="about-project__subheading">Использованные технологии</h4>
+                <hr class="about-project__heading-line">
+                <div class="about-project__svgs-block flex-row">
+                  <div class="svg svg--html about-project__svg about-project__svg--html5"></div>
+                  <div class="svg svg--sass about-project__svg about-project__svg--sass"></div>
+                  <div class="svg svg--javascript about-project__svg about-project__svg--javascript"></div>
+                  <div class="svg svg--jquery about-project__svg about-project__svg--jquery"></div>
+                  <div class="about-project__img-container">
+                    <img src="./img/svgs/slick.png" alt="Slick Carousel logo"
+                         class="about-project__img about-project__img--slick">
+                  </div>
+                  <div class="svg svg--figma about-project__svg about-project__svg--figma"></div>
+                  <div class="svg svg--git about-project__svg about-project__svg--git"></div>
+                </div>
+                <div class="about-project__text-block">
+                  <p class="about-project__paragraph">Участие в разработке ЛК для портала МойБизнес.РФ</p>
+                </div>
+                <a href="https://лк.мойбизнес.рф" class="button about-project__link" target="_blank"
+                   rel="noopener">Открыть</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="commercial-works__empty-block commercial-works__empty-block--bgcolor-grey full-height-block">
+        <span class="commercial-works__text">Будущие проекты ждут своей очереди здесь ;)</span>
+        <a href="https://summer.informatics.ru" target="_blank" rel="noopener"
+           class="button commercial-works__link">Дополнить</a>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__row footer__row--lightblue">
+        <div class="svg svg--figma-white footer__svg"></div>
+        <div class="svg svg--arrow-right footer__svg"></div>
+        <div class="svg svg--love-heart footer__svg"></div>
+        <div class="svg svg--arrow-right footer__svg"></div>
+        <div class="svg svg--source-code footer__svg"></div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+<script src="./js/main.js" defer></script>
+</body>
+</html>
